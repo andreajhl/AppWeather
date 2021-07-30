@@ -1,0 +1,18 @@
+.navbar{
+  background-color:rgb(15, 4, 76) ;
+  min-height: 80px;
+  border-bottom: 1px solid rgb (15, 4, 76);
+}
+.navbar-brand{
+  color: rgb(238, 238, 238);
+  margin: 0px;
+}
+
+.navbar-brand:hover{
+
+  color:rgb(120, 122, 145);
+}
+
+#logoHenry {
+  margin-right: 20px;
+}
