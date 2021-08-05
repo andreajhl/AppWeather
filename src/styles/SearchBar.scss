@@ -15,7 +15,7 @@
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     @media #{$smarmini} {
         width: 30%;
         font-size: 8px;
@@ -26,6 +26,10 @@
     }
     @media #{$tablet} {
         width: 35%;
+        font-size: 18px;
+    }
+    @media #{$desktop} {
+        font-size: 18px;
     }
 }
 .search{
@@ -39,7 +43,7 @@
     border-right: none;
     color: white;
     margin: 1px;
-    font-size: 30px;
+    font-size: 20px;
     @media #{$smarmini} {
         width: 16%;
         font-size: 8px;
@@ -51,6 +55,10 @@
     }
     @media #{$tablet} {
         width: 25%;
+        font-size: 18px;
+    }
+    @media #{$desktop} {
+        font-size: 18px;
     }
 }
 
