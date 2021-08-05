@@ -2,18 +2,8 @@
 
 body{
     background: url('https://img.freepik.com/vector-gratis/fondo-hermoso-aurora-boreal_23-2148298475.jpg?size=626&ext=jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size:100%;
-    @media #{$smarphone}{
-        background: url('https://img.freepik.com/vector-gratis/fondo-hermoso-aurora-boreal_23-2148298475.jpg?size=626&ext=jpg');
-        background-repeat: repeat;
-        background-size:100%;
-    }
-    @media #{$tablet}{
-        background: url('https://img.freepik.com/vector-gratis/fondo-hermoso-aurora-boreal_23-2148298475.jpg?size=626&ext=jpg');
-        background-repeat: repeat;
-        background-size:100%;
-    }
 }
 .App {
     text-align: center;

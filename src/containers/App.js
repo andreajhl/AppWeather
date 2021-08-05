@@ -5,6 +5,7 @@ import Nav from '../components/Nav/Nav.jsx';
 import Cards from '../components/Card/Cards.jsx';
 import Ciudad from '../components/Cuidad/Ciudad.jsx'
 
+import swal from 'sweetalert';
 
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
           var buscar= cities.find(e=> e.id === ciudad.id)
           buscar ? alert('La cuidad ya existe')  :setCities(oldCities => [ciudad,...oldCities]);
         } else {
-          alert("Ciudad no encontrada");
+          swal ( "¡la cuidad no existe! " , "" , "error" )  
         }
       });
   }

@@ -1,9 +1,7 @@
-
-
-$smarphone:"(max-width: 480px)";
+$smarmini:"(max-width: 282px)";
+$smarphone:"(min-width:282px) and (max-width: 480px)";
 $tablet:"(min-width:480px) and (max-width:728px)";
 $desktop:"(min-width: 1024px)";
-
 
 @mixin caja-flex ($flex,$direction,$principal, $cruzado, $wrap){
     display: $flex;

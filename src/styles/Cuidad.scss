@@ -13,11 +13,19 @@
        width: 80%;
        height: 60%;
     }
+    @media #{$smarmini} {
+        width: 80%;
+        height: 60%;
+     }
 }
 .flecha{
     @include caja-flex (flex,row,center,center,nowrap);
     margin-left: 3%;
-    font-size: 30px
+    font-size: 30px;
+    @media #{$smarmini} {
+        width: 5%;
+        height: 5%;
+     }
     
 }
 
@@ -38,5 +46,8 @@
     width: 60%;
     @media #{$smarphone} {
         font-size: 15px;
+    }
+    @media #{$smarmini} {
+        font-size: 10px;
     }
 }

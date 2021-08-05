@@ -1,3 +1,5 @@
+@import 'global';
+
 .card {
     margin: 20px;
     width: 16rem;
@@ -7,40 +9,65 @@
     background-color: rgba(255, 255, 255, 0.151);
     animation: backInDown;
     animation-duration: 1.5s; 
+    @media #{$smarphone}{
+      line-height: 120%;
+    }
+    @media #{$smarmini}{
+      line-height: 100%;
+    }
+}
+  
+.card:hover{
+  box-shadow: 8px 8px 20px rgba(1, 7, 19, 0.609);
+  transform: scale(
+        1.05
+    );
+  background-color: rgba(14, 226, 208, 0.281);
+}
+
+.card-title {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.imgN{
+  justify-content: center;
+  align-items: center;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+
+
+}
+
+.card-body {
+  margin: 0px;
+  padding: 0px;
+ 
+  
+}
+.row{
+  @include caja-flex (inline-flex,row,space-around,center,nowrap);
+  @media #{$smarphone}{
+    display: inline-flex;
+    flex-wrap: wrap;
+    p{margin: 0px}
   }
-  
-  
-  .card:hover{
-    box-shadow: 8px 8px 20px rgba(1, 7, 19, 0.609);
-    transform: scale(
-          1.05
-      );
-    background-color: rgba(14, 226, 208, 0.281);
+  @media #{$smarmini}{
+    display: inline-flex;
+    flex-wrap: wrap;
+    p{margin: 0px;}
   }
-  
-  .card-title {
-    margin-bottom: 15px;
-    text-decoration: none;
-    color: white
+  @media #{$tablet}{
+    display: inline-flex;
+    flex-wrap: wrap;
+    p{margin: 0px;}
   }
-  
-  .imgN{
-    justify-content: center;
-    align-items: center;
-  }
-  
-  
-  #closeIcon {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 10px;
-    margin-top: 8px;
-  
-  }
-  
-  .card-body {
-    margin-top: 0px !important;
-    padding-top: 0px !important;
-   
-  }
-  
+}
+.col{
+  margin: 8px;
+}
