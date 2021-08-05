@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {Route} from 'react-router-dom'
-import './App.css';
+import '../styles/App.scss';
 import Nav from '../components/Nav/Nav.jsx';
 import Cards from '../components/Card/Cards.jsx';
 import Ciudad from '../components/Cuidad/Ciudad.jsx'

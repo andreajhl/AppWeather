@@ -1,0 +1,5 @@
+@import 'global';
+
+.cards {
+  @include caja-flex(flex,row,center,center,wrap)
+}

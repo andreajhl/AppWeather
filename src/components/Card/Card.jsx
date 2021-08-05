@@ -1,5 +1,5 @@
 import React from 'react';
-import './Card.css';
+import '../../styles/Card.scss';
 import {Link} from 'react-router-dom'
 
 import {CloseCircleOutlined} from '@ant-design/icons'

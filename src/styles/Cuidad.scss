@@ -1,25 +1,28 @@
+@import 'global';
+
 .container{
-    min-width: 450px;
-    max-width: 450px;
-    max-height: 400px;
-    min-height: 350px;
+    width: 450px;
+    height: 400px;
     border-radius: 5%;
     border: 1px solid rgba(14, 226, 208, 0.836);
     background-color: rgba(255, 255, 255, 0.151);
     box-shadow: 8px 8px 20px rgba(1, 7, 19, 0.609);
     color:white;
     padding-top: 10px;
+    @media #{$smarphone} {
+       width: 80%;
+       height: 60%;
+    }
 }
 .flecha{
-    display: flex;
-    justify-content: center;
+    @include caja-flex (flex,row,center,center,nowrap);
     margin-left: 3%;
+    font-size: 30px
+    
 }
 
 .infoImg{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include caja-flex (flex,column,center,center,nowrap);
     width: 40%;
 }
 .ii{
@@ -27,13 +30,13 @@
     border-right: 1px solid rgba(14, 226, 208, 0.836);
 }
 .info{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    @include caja-flex(flex,row,center,center,nowrap);
 }
 .infoC{
     padding: 6%;
     font-size: 20px;
     width: 60%;
+    @media #{$smarphone} {
+        font-size: 15px;
+    }
 }
