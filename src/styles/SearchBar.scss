@@ -11,24 +11,20 @@
     border-right: 4px solid rgba(14, 226, 208, 0.836);
     border-left: none;
     width: 40%;
-    height: 55%;
     background-color: transparent;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     color: white;
     @media #{$smarmini} {
         width: 30%;
-        height: 20%;
         font-size: 8px;
     }
     @media #{$smarphone} {
         width: 40%;
-        height: 30%;
         font-size: 15px;
     }
     @media #{$tablet} {
         width: 35%;
-        height: 30%;
     }
 }
 .search{
@@ -58,6 +54,10 @@
         width: 25%;
         height: 30%;
     }
+}
+
+.form{
+    height: 100%;
 }
 .search:hover{
     background-color:rgba(8, 172, 158, 0.37);;
