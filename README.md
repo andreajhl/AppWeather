@@ -1,48 +1,46 @@
 
 # APP WEATHER
 
-### Esta aplicacion esta realizada usando la API 'Spire Weather' ,  se hace uso de React, en ella podes buscar el clima de cada pais y cuidad por nombre, esto te traera la temperatura maxima y minima, si quieres ver mas detalles como la velocidad del viendo o humedad solo debes de dar click sobre el nombre y te redirigira a sus detalles, tambien podes eliminarlas de tu home si ya no la necesitas
+#### Esta aplicacion esta realizada usando la API 'Spire Weather' ,  se hace uso de React, en ella podes buscar el clima de cada pais y cuidad por nombre, esto te traera la temperatura maxima y minima, si quieres ver mas detalles como la velocidad del viendo o humedad solo debes de dar click sobre el nombre y te redirigira a sus detalles, tambien podes eliminarlas de tu home si ya no la necesitas
 <br>
 <br>
 
-## CLONAR REPOSITORIO
+### CLONAR REPOSITORIO
 <hr>
 
-* ### $ git clone https://github.com/andreajhl/AppWeather.git
+* #### $ git clone https://github.com/andreajhl/AppWeather.git
 <br>
 <br>
 
-## PROBAR
+### PROBAR
 <hr>
 
-## Después de clonar este repositorio.
+### Después de clonar este repositorio.
 
-* ### Ingresar a la carpeta del proyecto desde tu editor de codigo favorito.
-* ### Abre la consola del proyecto
-* ### En la terminal del proyecto ejecute la línea de comando, 'npm install'
-* ### Al culminar la instalacion ejecute 'npm start' para arrancar el proyecto.
+* #### Ingresar a la carpeta del proyecto desde tu editor de codigo favorito.
+* #### Abre la consola del proyecto
+* #### En la terminal del proyecto ejecute la línea de comando, 'npm install'
+* #### Al culminar la instalacion ejecute 'npm start' para arrancar el proyecto.
 <br>
 <br>
 
-## TECNOLOGIAS USADAS
+### TECNOLOGIAS USADAS
 <hr>
 
-* ### HTML5
-* ### SASS
-* ### Javascript
-* ### ReactJS
+* #### HTML5
+* #### SASS
+* #### Javascript
+* #### ReactJS
 <br>
 <br>
 
-
-
-## PANTALLAS DEL PROYECTO Y USOS
+### PANTALLAS DEL PROYECTO Y USOS
 <hr>
 
-* ## Home
+* ### Home
 <br>
 
-### Aca aparecen las tarjetas de las cuidades o paises que vayas buscando; Esto lo podes hacer desde la barra de busqueda como se muestra en el ejemplo
+#### Aca aparecen las tarjetas de las cuidades o paises que vayas buscando; Esto lo podes hacer desde la barra de busqueda como se muestra en el ejemplo
 <br>
 
 <img src="src/gifReatme/searchappweather ‐ Made with Clipchamp.gif" width="800" height="400" />
@@ -50,7 +48,7 @@
 <br>
 
 
-### En caso de que busques una cuidad que no exista en la api te saldra una alerta
+#### En caso de que busques una cuidad que no exista en la api te saldra una alerta
 <br>
 
 <img src="src/gifReatme/errorappweather ‐ Made with Clipchamp (1).gif" width="800" height="400" />
@@ -58,10 +56,10 @@
 <br>
 
 
-* ## Detalles de cada tarjeta
+* ### Detalles de cada tarjeta
 <br>
 
-### Al dar clikc en la tarjeta te saldran detalles adicionales del clima del pais o cuidad
+#### Al dar clikc en la tarjeta te saldran detalles adicionales del clima del pais o cuidad
 <br>
 
 <img src="src/gifReatme/detallesappweather ‐ Made with Clipchamp.gif" width="800" height="400" />
@@ -69,10 +67,10 @@
 <br>
 
 
-* ## Eliminar tarjeta
+* ### Eliminar tarjeta
 <br>
 
-### Por ultimo, cuando ya no necesites la informacion podes eliminar la tarjeta con un simple clikc, igualemente podes volver a pedirla mas adelante si la necesitas nuevamente 
+#### Por ultimo, cuando ya no necesites la informacion podes eliminar la tarjeta con un simple clikc, igualemente podes volver a pedirla mas adelante si la necesitas nuevamente 
 <br>
 
 <img src="src/gifReatme/deleteappweather ‐ Made with Clipchamp.gif" width="800" height="400" />
