@@ -45,7 +45,7 @@
 ### Aca aparecen las tarjetas de las cuidades o paises que vayas buscando; Esto lo podes hacer desde la barra de busqueda como se muestra en el ejemplo
 <br>
 
-<img src="/home/andrea/Documentos/AppWeather/gifReatme/searchappweather ‐ Made with Clipchamp.gif" width="800" height="400" />
+<img src="src/gifReatme/searchappweather ‐ Made with Clipchamp.gif" width="800" height="400" />
 <br>
 <br>
 
@@ -53,7 +53,7 @@
 ### En caso de que busques una cuidad que no exista en la api te saldra una alerta
 <br>
 
-<img src="/home/andrea/Documentos/AppWeather/gifReatme/errorappweather ‐ Made with Clipchamp (1).gif" width="800" height="400" />
+<img src="src/gifReatme/errorappweather ‐ Made with Clipchamp (1).gif" width="800" height="400" />
 <br>
 <br>
 
@@ -64,7 +64,7 @@
 ### Al dar clikc en la tarjeta te saldran detalles adicionales del clima del pais o cuidad
 <br>
 
-<img src="/home/andrea/Documentos/AppWeather/gifReatme/detallesappweather ‐ Made with Clipchamp.gif" width="800" height="400" />
+<img src="src/gifReatme/detallesappweather ‐ Made with Clipchamp.gif" width="800" height="400" />
 <br>
 <br>
 
@@ -75,14 +75,4 @@
 ### Por ultimo, cuando ya no necesites la informacion podes eliminar la tarjeta con un simple clikc, igualemente podes volver a pedirla mas adelante si la necesitas nuevamente 
 <br>
 
-<img src="/home/andrea/Documentos/AppWeather/gifReatme/deleteappweather ‐ Made with Clipchamp.gif" width="800" height="400" />
-
-
-
-
-
-
-
-=======
->>>>>>> 888c0b316cd5580609592671362595ba373a208b
-
+<img src="src/gifReatme/deleteappweather ‐ Made with Clipchamp.gif" width="800" height="400" />
