@@ -18,7 +18,7 @@ export default function SearchBar() {
 
   return (
       <form onSubmit={handleSubmit} className='form'>
-        <input className='search' type="submit" value="Search" />
+        <button className='search' type="submit">Search</button>
         <input
           className='input'
           type="text"
