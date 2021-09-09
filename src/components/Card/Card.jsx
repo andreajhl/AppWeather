@@ -1,14 +1,19 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { onClose } from '../../actions';
 import '../../styles/Card.scss';
 import {Link} from 'react-router-dom'
 
 import {CloseCircleOutlined} from '@ant-design/icons'
 
-export default function Card ({min, max, name, img, onClose, id}) {
+export default function Card ({min, max, name, img, id}) {
+
+  const dispatch = useDispatch()
+
     return (
       <div className="card">
           <div id="closeIcon" className="row">
-              <button onClick={onClose}  style={{backgroundColor:'transparent',border:'none'}} ><CloseCircleOutlined style={{color:'red'}} /></button>
+              <button onClick={()=>dispatch(onClose(id))}  style={{backgroundColor:'transparent',border:'none'}} ><CloseCircleOutlined style={{color:'red'}} /></button>
           </div>
           <div className="card-body">
             <Link to={`/ciudad/${id}`} style={{textDecoration: 'none'}}>

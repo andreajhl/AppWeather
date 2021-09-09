@@ -2,7 +2,7 @@
 
 .form{
     @include caja-flex(flex,row,center,center,nowrap);
-    width: 100%;
+    width: 60%;
     height: 90px;
 }
 .input{

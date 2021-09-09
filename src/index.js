@@ -1,14 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './containers/App';
-import {BrowserRouter as Router} from 'react-router-dom'
+import {Provider} from 'react-redux';
+import{BrowserRouter} from 'react-router-dom';
+
+import store from './store';
+import App from './App';
 
 
 
 ReactDOM.render(
-  <Router>
-      <App />
-  </Router>,
-
+  <React.StrictMode>
+    <BrowserRouter>
+      <Provider store={store}>
+        <App/>
+      </Provider>  
+    </BrowserRouter>
+  </React.StrictMode>,
   document.getElementById('root')
 );

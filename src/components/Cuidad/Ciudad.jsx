@@ -1,10 +1,24 @@
-import React from "react";
+import React,{useEffect} from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { details } from "../../actions";
+import { useParams } from "react-router";
 import '../../styles/Cuidad.scss'
 import { NavLink } from "react-router-dom";
 
 import {ArrowLeftOutlined} from '@ant-design/icons'
 
-export default function Ciudad({city}) {
+export default function Ciudad() {
+
+    const { id } = useParams();
+    const dispatch = useDispatch()
+    const city = useSelector( state => state.details)
+    
+    
+    useEffect(() => {
+       dispatch(details(id))
+  
+    }, [dispatch,id])
+
     if(!city) {
         return <>No existe la ciudad</>
     }
