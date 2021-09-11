@@ -43,8 +43,9 @@
         font-size: 1ex;
     }
     @media #{$smarphone} {
-        width: 18%;
+        width: 28%;
         padding: 1%;
+        font-size: 1ex;
     }
     @media #{$tablet} {
         width: 25%;
