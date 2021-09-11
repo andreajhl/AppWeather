@@ -24,7 +24,7 @@ export default function rootReducers(state = initialState, action) {
            
             return{
                 ...state,
-                ciudades:res && res.length>0? res : payload.img?  [payload,...state.ciudades] : [...state.ciudades]
+                ciudades:res && res.length>0? res : payload.img?  [...state.ciudades,payload] : [...state.ciudades]
 
             }
         case GET_DETAILS:
