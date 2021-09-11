@@ -40,6 +40,7 @@
     font-size: 1rem;
     @media #{$smarmini} {
         width: 16%;
+        font-size: 1ex;
     }
     @media #{$smarphone} {
         width: 18%;

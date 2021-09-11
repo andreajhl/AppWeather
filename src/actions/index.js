@@ -39,11 +39,17 @@ export function onSearchInicio(lat,lon){
         var recurso= await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${results[0].country}&appid=${apiKey}`)
         recurso= await recurso.json()
         let res = {
-             min: Math.round(recurso.main.temp_min),
-             max: Math.round(recurso.main.temp_max),
-             img: recurso.weather[0].icon,
-             id: recurso.id,
-             name: recurso.name
+            min: Math.round(recurso.main.temp_min),
+            max: Math.round(recurso.main.temp_max),
+            img: recurso.weather[0].icon,
+            id: recurso.id,
+            wind: recurso.wind.speed,
+            temp: recurso.main.temp,
+            name: recurso.name,
+            weather: recurso.weather[0].main,
+            clouds: recurso.clouds.all,
+            latitud: recurso.coord.lat,
+            longitud: recurso.coord.lon
         }
         return dispatch({type:GET_CUIDAD, payload:res})
     }
