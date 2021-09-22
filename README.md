@@ -50,7 +50,7 @@
 #### Aca aparecen las tarjetas de las cuidades o paises que vayas buscando; Esto lo podes hacer desde la barra de busqueda como se muestra en el ejemplo
 <br>
 
-<img src="src/gifReatme/searchappweather.gif" width="800" height="400" />
+<img src="src/img/gifReatme/searchappweather.gif" width="800" height="400" />
 <br>
 <br>
 
@@ -58,7 +58,7 @@
 #### En caso de que busques una cuidad que no exista en la api te saldra una alerta
 <br>
 
-<img src="src/gifReatme/errorappweather.gif" width="800" height="400" />
+<img src="src/img/gifReatme/errorappweather.gif" width="800" height="400" />
 <br>
 <br>
 
@@ -69,7 +69,7 @@
 #### Al dar clikc en la tarjeta te saldran detalles adicionales del clima del pais o cuidad
 <br>
 
-<img src="src/gifReatme/detallesappweather.gif" width="800" height="400" />
+<img src="src/img/gifReatme/detallesappweather.gif" width="800" height="400" />
 <br>
 <br>
 
@@ -80,4 +80,4 @@
 #### Por ultimo, cuando ya no necesites la informacion podes eliminar la tarjeta con un simple clikc, igualemente podes volver a pedirla mas adelante si la necesitas nuevamente 
 <br>
 
-<img src="src/gifReatme/deleteappweather.gif" width="800" height="400" />
+<img src="src/img/gifReatme/deleteappweather.gif" width="800" height="400" />
